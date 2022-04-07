@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="options.css"/>
+  </head>
+
+  <body>
+    <div class="container">
+      <form>
+          <div class="panel">
+            <div class="browser-style">
+              <label for="base_url">GLPI base url :
+                <input type="text" id="base_url" class="browser-style" >
+              </label>
+            </div>
+            <div class="browser-style">
+              <label for="api_url">GLPI API url :
+                <input type="text" id="api_url" class="browser-style" >
+              </label>
+            </div>
+            <div class="browser-style">
+              <label for="user_token">GLPI user token :
+                <input type="text" id="user_token" class="browser-style" >
+              </label>
+            </div>
+          </div>
+          <div class="panel">
+            <div class="browser-style">
+              <label for="search_criteria">
+                <textarea id="search_criteria" class="browser-style" rows="20"></textarea>
+              </label>
+            </div>
+          </div>
+          <div class="center">
+            <button type="submit">Save</button>
+          </div>
+        </form>
+      </div>
+    <script src="options.js"></script>
+  </body>
+</html>
